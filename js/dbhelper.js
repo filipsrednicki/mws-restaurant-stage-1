@@ -168,3 +168,12 @@ class DBHelper {
   }
 
 }
+
+
+if(navigator.serviceWorker) {
+  navigator.serviceWorker.register('../sw.js').then(function() {
+    console.log('Worked!');
+  }).catch(function() {
+    console.log('Failed!');
+  });
+}
