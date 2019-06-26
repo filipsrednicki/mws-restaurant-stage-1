@@ -13,7 +13,7 @@ body {
   margin: 0;
   position: relative;
   display: grid;
-  grid-template: 33% 33% 33% / 100%;
+  grid-template: 80px 1fr 60px / 100%;
 }
 
 .inside {
